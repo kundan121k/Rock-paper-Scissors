@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="rockPaperScissors.js"></script>
+    <link rel="stylesheet" href="rockPaperScissors.css">
+</head>
+<body>
+    <p class="title">Rock Paper Scissors</p>
+    <button class="move-button" onclick="handleClick('Rock')"><img src="images/rock.jfif" class="move-icon"></button>
+    <button class="move-button" onclick="handleClick('Paper')"><img src="images/paper.jfif" class="move-icon"></button>
+    <button class="move-button" onclick="handleClick('Scissors')"><img src="images/scissors.jfif" class="move-icon"></button>
+    <p class="js-Move " id="move"></p>
+    <p class="js-Result result " id="result"></p>
+    <p class="js-Score"></p>
+    <button class="reset" onclick="handleReset()">Reset</button>
+  
+</body>
+</html>
